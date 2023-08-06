@@ -11,7 +11,7 @@ import { useForm } from "react-hook-form";
 import Link from 'next/link';
 
 
-export default function web(){
+export default function Web(){
 
        const { register, handleSubmit } = useForm();
        const onSubmit = async function(data){
