@@ -15,7 +15,7 @@ return (
 
     <div className="text-white font-extrabold h-screen justify-center items-center bg-black flex" >
 <div className="text-6xl fixed z-10 ml-[15rem] mt-[-10rem] w-[80rem]">
-Disability Sector Workforce Data
+Disability Sector Workforce Analysis
 
 </div>
 
