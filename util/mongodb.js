@@ -2,8 +2,8 @@
 import { MongoClient } from 'mongodb'
 //const assert = require('assert');
 //const MongoClient = require('mongodb').MongoClient; 
-const uri = process.env.MONGODB_URI;
-const dbname = process.env.MONGO_DB;
+const uri = 'mongodb+srv://johnwhitefalcon:Flow8404@cluster0.ufllo.mongodb.net/mongdbase?retryWrites=true&w=majority'
+const dbname = 'mongdbase'
 
 export async function connectToDatabase(){
   
