@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import Link from 'next/link';
 import { Button } from 'antd';
@@ -20,10 +19,15 @@ export default function pg4() {
       </div>
 
       <div className="fixed z-10 ml-[-59rem] mt-[0rem]">
-
-  <Button type="primary" onClick={()=>(window.location.href='https://www.surveymonkey.com/r/87SH7WB')}>Go To Survey</Button>
-
+        {/* Use Link component for navigation */}
+        <Link href="/page1">
+          {/* Use Ant Design Button */}
+          <Button type="primary">Go to Page 1</Button>
+        </Link>
       </div>
     </div>
   );
 }
+
+
+
